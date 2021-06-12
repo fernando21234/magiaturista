@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC >
+<html >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>GALERIA MAGIA TURISTA</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<!-- Begin JavaScript -->
+<script type="text/javascript" src="lib/jquery.1.4.2.js"></script>
+	<script type="text/javascript" src="lib/jquery.custom.js"></script>
+<script type="text/javascript" src="lib/compressed.js"></script>
+
+</head>
+<body>
+<div id="bg_img">
+<div id="main">
+<div id="main_img"></div>
+<!-- header begins -->
+<div id="header">
+	<div id="buttons">
+      <a href="index.html" class="but"  title="">INICIO</a>
+      <a href="blog.html" class="but" title="">EXPERIENCIAS</a>
+      <a href="gallery.html"  class="but" title="">GALERIA</a>
+      </div>
+	<div id="logo"> 
+    	<a href="#">VIVE LA MAGIA DE NUESTROS VIAJES</a>
+    
+    </div>
+   
+</div>
+<div class="cont_top"></div>
+       			<div id="content">
+				
+<ul id="slideshow">
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img31.jpg</span>
+			<p>“Hay mucha diferencia entre viajar para ver países y para ver pueblos”. -Jean Jacques Rousseau.</p>
+			<a href="#"><img src="images/img32.jpg" alt="Some Image Description Here" /></a>
+		</li>
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img_big2.jpg</span>
+			<p>“Viajar es imprescindible y la sed de viaje, un síntoma neto de inteligencia”. -Enrique Jardiel Poncela</p>
+			<img src="images/img33.jpg" alt="Some Image Description Here"  />
+		</li>
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img_big3.jpg</span>
+			<p>No importa cuánto me lleve, pero voy a ir a un lugar maravilloso”.-D.A.R</p>
+			<a href="#"><img src="images/img34.jpg" alt="Red Coral" /></a>
+		</li>
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img_big4.jpg</span>
+			<p>Viajar es conocer el mundo con nuevos ojos”. -D.A.R</p>
+			<a href="#"><img src="images/img35.jpg" alt="Coral Reef" /></a>
+		</li>
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img_big5.jpg</span>
+			<p>“Es bueno tener un fin hacia el que viajar, pero es el viaje lo que importa finalmente”. -Ernest Hemingway</p>
+			<img src="images/img36.jpg" alt="Blue Fish" />
+		</li>
+		<li>
+			<h3>SOMOS MAGIA TURISTA</h3>
+			<span>images/img_big6.jpg</span>
+			<p> “Viaja lo suficientemente lejos, te encuentras a ti mismo”. -David Mitchell</p>
+			<a href="#"><img src="images/img37.jpg" alt="Yellow Fish" /></a>
+		</li>		
+	</ul>
+	<div id="wrapper">
+		<div id="fullsize">
+			<div id="imgprev" class="imgnav" title="Previous Image"></div>
+			<div id="imglink"></div>
+			<div id="imgnext" class="imgnav" title="Next Image"></div>
+			<div id="image"></div>
+			<div id="information">
+				<h3></h3>
+				<p></p>
+			</div>
+		</div>
+		<div id="thumbnails">
+			<div id="slideleft" title="Slide Left"></div>
+			<div id="slidearea">
+				<div id="slider"></div>
+			</div>
+			<div id="slideright" title="Slide Right"></div>
+		</div>
+	</div>
+<script type="text/javascript">
+	$('slideshow').style.display='none';
+	$('wrapper').style.display='block';
+	var slideshow=new TINY.slideshow("slideshow");
+	window.onload=function(){
+		slideshow.auto=true;
+		slideshow.speed=5;
+		slideshow.link="linkhover";
+		slideshow.info="information";
+		slideshow.thumbs="slider";
+		slideshow.left="slideleft";
+		slideshow.right="slideright";
+		slideshow.scrollSpeed=4;
+		slideshow.spacing=5;
+		slideshow.active="#fff";
+		slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+	}
+</script>
+			
+			
+					<div style="clear: both"></div>
+                </div>
+				
+                <div class="cont_bot"></div>
+ 
+      
+            <div class="read_l but_view"><a href="#"> view more</a></div>
+          
+        </div>
+        
+       
+        
+
+            </form>
+        	</div>
+			<div style="height:10px;"></div>
+		
+        <h1>YA NOS SIGUES EN NUESTRAS REDES SOCIALES!</h1>
+		<BR>
+            <cente a href="#"><img src="images/fu_i1.gif" class=" fu_i" alt="" /></a>
+            <a href="#"><img src="images/fu_i2.gif" class=" fu_i" alt="" /></a>
+            <a href="#"><img src="images/fu_i3.gif" class=" fu_i" alt="" /></a>
+            <a href="#"><img src="images/fu_i4.gif" class=" fu_i" alt="" /></a>
+            <a href="#"><img src="images/fu_i5.gif" class=" fu_i" alt="" /></a>
+			<BR>
+      </div>
+      <div style="clear: both"></div>
+    </div>
+    
+  
+
+</div>
+</div>
+</body>
+</html>
